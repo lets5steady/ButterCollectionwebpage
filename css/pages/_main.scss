@@ -24,7 +24,7 @@
     font-size: $fontsizeTitle;
     font-family: $fontfamilyEnglish;
     text-align: center;
-    background-image: url(../../images/line.png);
+    background-image: url(/images/line.png);
     background-repeat: no-repeat;
     background-size: 260px;
     background-position: center bottom;
@@ -171,15 +171,15 @@
 }
 
 .kodawari01_img{
-    background-image: url(../../images/butter.jpg);
+    background-image: url(/images/butter.jpg);
 }
 
 .kodawari02_img{
-    background-image: url(../../images/flour.jpg);
+    background-image: url(/images/flour.jpg);
 }
 
 .kodawari03_img{
-    background-image: url(../../images/giftbag.jpg);
+    background-image: url(/images/giftbag.jpg);
 }
 
 .kodawari02_img{
@@ -261,4 +261,4 @@
 // 改行なしにした場合、こだわりテキスト部分の幅指定方法（flexの中身)
 // 画面幅が1100pxより小さくなった時.bannerに指定してる背景色出てこない問題
 // .header_navの文字、スマホ版に切り替わる直前に表示しきれないタイミングある
-// こだわりの空divに設定してるサイズw/hのサイズ設定、max-widthにしたら消えちゃう
+// スマホ版固定メニューバー、ボタンになってないところある＋ドロワーメニュー表示されない
