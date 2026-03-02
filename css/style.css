@@ -436,7 +436,7 @@ a {
   font-size: 6rem;
   font-family: "Tangerine";
   text-align: center;
-  background-image: url(../../images/line.png);
+  background-image: url(/images/line.png);
   background-repeat: no-repeat;
   background-size: 260px;
   background-position: center bottom;
@@ -602,15 +602,15 @@ a {
 }
 
 .kodawari01_img {
-  background-image: url(../../images/butter.jpg);
+  background-image: url(/images/butter.jpg);
 }
 
 .kodawari02_img {
-  background-image: url(../../images/flour.jpg);
+  background-image: url(/images/flour.jpg);
 }
 
 .kodawari03_img {
-  background-image: url(../../images/giftbag.jpg);
+  background-image: url(/images/giftbag.jpg);
 }
 
 .kodawari02_img {
