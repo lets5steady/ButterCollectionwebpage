@@ -68,8 +68,10 @@
     grid-template-columns: repeat(auto-fit , minmax(200px , 1fr));
     justify-content: center;
     column-gap: 10%;
-    row-gap: 5%;
+    // row-gap: 5%;
+    row-gap: $spaceXL;
 }
+
 
 .cookies_item{
     @include subgrid
@@ -91,6 +93,7 @@
 .cookies_item_img{
     width: 100%;
     aspect-ratio: 1/1;
+    overflow: hidden;
 }
 
 .cookies_item_img img{

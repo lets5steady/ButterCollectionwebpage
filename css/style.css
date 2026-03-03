@@ -479,7 +479,7 @@ a {
   justify-content: center;
   -moz-column-gap: 10%;
        column-gap: 10%;
-  row-gap: 5%;
+  row-gap: 4.5rem;
 }
 
 .cookies_item {
@@ -513,6 +513,7 @@ a {
 .cookies_item_img {
   width: 100%;
   aspect-ratio: 1/1;
+  overflow: hidden;
 }
 
 .cookies_item_img img {
