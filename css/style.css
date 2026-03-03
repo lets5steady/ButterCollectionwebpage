@@ -602,15 +602,15 @@ a {
 }
 
 .kodawari01_img {
-  background-image: url(/images/butter.jpg);
+  background-image: url(../images/butter.jpg);
 }
 
 .kodawari02_img {
-  background-image: url(/images/flour.jpg);
+  background-image: url(../images/flour.jpg);
 }
 
 .kodawari03_img {
-  background-image: url(/images/giftbag.jpg);
+  background-image: url(../images/giftbag.jpg);
 }
 
 .kodawari02_img {
@@ -777,6 +777,9 @@ footer {
     padding-block: 1rem;
     padding-inline-start: 1rem;
     border-bottom: 1px solid #FFFEF9;
+  }
+  .menubar_menu.open {
+    bottom: 0;
   }
   .banner img {
     width: 315px;

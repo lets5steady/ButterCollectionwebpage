@@ -54,6 +54,10 @@ header .sp_menubar ul li{
     border-bottom: 1px solid $baseColor;
 }
 
+.menubar_menu.open {
+    bottom: 0;
+}
+
 // バナー
 
 .banner img{
