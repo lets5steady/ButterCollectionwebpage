@@ -35,6 +35,11 @@ header .sp_menubar ul li{
     width: 60px;
 }
 
+.menubar_menu ul li a,
+.sp_menubar ul li p{
+    color: $textColor;
+}
+
 .menubar_menu{
     display: block;
     background-color: $accentColor;
@@ -188,8 +193,3 @@ header .sp_menubar ul li{
 
 // スマホ版(min-width:500px)
 }
-
-// わからないところまとめ
-// デスクトップ版で設定してたmargin/padding要らなくなったら全部0で指定？
-// メニューバー固定してる時に隠れてしまうfooter部分の扱い(今は表示させたいものの2倍の高さ設定して下半分は隠れてもいいようにしてる）
-// スマホ版コピーライトの垂直方法の位置の整え方わからなかった。。（今は目分量で上部にだけmargin指定）
