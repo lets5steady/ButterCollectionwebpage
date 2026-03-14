@@ -762,6 +762,10 @@ footer {
   header .sp_menubar ul li {
     width: 60px;
   }
+  .menubar_menu ul li a,
+  .sp_menubar ul li p {
+    color: #2E2A24;
+  }
   .menubar_menu {
     display: block;
     background-color: #B9AFA3;
