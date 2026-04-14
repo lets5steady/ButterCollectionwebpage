@@ -20,11 +20,6 @@
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="サービスを象徴するビジュアルの代替テキスト">
 
-    <!-- 追加の代替サイズ（任意・あると安定） -->
-    <meta property="og:image" content="https://www.example.com/ogp/ogp-600x315.jpg">
-    <meta property="og:image:width" content="600">
-    <meta property="og:image:height" content="315">
-
     <!-- 多言語サイトなら（任意） -->
     <!-- <meta property="og:locale:alternate" content="en_US"> -->
 
@@ -43,8 +38,8 @@
     <!-- <meta property="fb:app_id" content="1234567890"> -->
     <!-- <meta property="fb:admins" content="FACEBOOK_USER_ID"> -->
 
-    <!-- 共有時のクローラー制御は通常不要。検索用 robots は必要に応じて -->
-    <meta name="robots" content="noindex,nofollow">
+        <!-- 共有時のクローラー制御は通常不要。検索用 robots は必要に応じて -->
+    <!-- <meta name="robots" content="noindex,nofollow"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,12 +53,12 @@
             <div class="header_logo">
                 <h1 class="header_logo_img"><a href="#"><img src="images/logo_big.jpg" alt="ロゴ"></a></h1>
                 <ul class="header_guide pc_only">
-                    <li><button><img src="images/search.png" alt="検索"></button></li>
-                    <li><button><img src="images/mypage.png" alt="マイページ"></button></li>
-                    <li><button><img src="images/cart.png" alt="買い物かご"></button></li>
+                    <li><button type="button"><img src="images/search.png" alt="検索"></button></li>
+                    <li><button type="button"><img src="images/mypage.png" alt="マイページ"></button></li>
+                    <li><button type="button"><img src="images/cart.png" alt="買い物かご"></button></li>
                 </ul>
             </div>
-            <nav class="header_nav pc_only">
+            <nav class="header_nav pc_only" aria-label="メインナビゲーション">
                 <div class="wrapper">
                     <ul>
                         <li><a href="#">About</a></li>
@@ -77,19 +72,19 @@
         <div class="sp_menubar sp_only">
             <ul>
                 <li>
-                    <button class="drawerButton"><img src="images/menubar_menu.png" alt="メニュー"><p>MENU</p></button>
+                    <button type="button" class="drawerButton"><img src="images/menubar_menu.png" alt="メニュー"><p>MENU</p></button>
                 </li>
                 <li>
-                    <button><img src="images/menubar_home.png" alt="ホーム"><p>HOME</p></button>
+                    <button type="button"><img src="images/menubar_home.png" alt="ホーム"><p>HOME</p></button>
                 </li>
                 <li>
-                    <button><img src="images/menubar_product.png" alt="商品"><p>PRODUCT</p></button>
+                    <button type="button"><img src="images/menubar_product.png" alt="商品"><p>PRODUCT</p></button>
                 </li>
                 <li>
-                    <button><img src="images/menubar_access.png" alt="アクセス"><p>ACCESS</p></button>
+                    <button type="button"><img src="images/menubar_access.png" alt="アクセス"><p>ACCESS</p></button>
                 </li>
                 <li>
-                    <button><img src="images/menubar_cart.png" alt="カート"><p>CART</p></button>
+                    <button type="button"><img src="images/menubar_cart.png" alt="カート"><p>CART</p></button>
                 </li>
             </ul>
         </div>
@@ -118,7 +113,7 @@
                             <dt><a href="#">ショートブレッド</a></dt>
                             <dd>発酵バターを主役に据えた、<br>最も純度の高い一枚。</dd>
                         </dl>
-                        <button class="cart_btn btn_small">カートに入れる</button>
+                        <button type="button" class="cart_btn btn_small">カートに入れる</button>
                     </div>
                     <div class="cookies_item">
                         <div class="cookies_item_img"><a href="#"><img src="images/galette.jpg" alt="ガレットの写真"></a></div>
@@ -126,7 +121,7 @@
                             <dt><a href="#">ガレット</a></dt>
                             <dd>外は香ばしく、<br>内はほろりと崩れる。<br>存在感で魅せる一枚。</dd>
                         </dl>
-                        <button class="cart_btn btn_small">カートに入れる</button>
+                        <button type="button" class="cart_btn btn_small">カートに入れる</button>
                     </div>
                     <div class="cookies_item">
                         <div class="cookies_item_img"><a href="#"><img src="images/langue.jpg" alt="ラングドシャの写真"></a></div>
@@ -134,7 +129,7 @@
                             <dt><a href="#">ラングドシャ</a></dt>
                             <dd>薄く、軽く、繊細に。<br>余韻を楽しむ一枚。</dd>
                         </dl>
-                        <button class="cart_btn btn_small">カートに入れる</button>
+                        <button type="button" class="cart_btn btn_small">カートに入れる</button>
                     </div>
                     <div class="cookies_item">
                         <div class="cookies_item_img"><a href="#"><img src="images/sable.jpg" alt="サブレの写真"></a></div>
@@ -142,7 +137,7 @@
                             <dt><a href="#">サブレディアマン</a></dt>
                             <dd>縁にまとわせた砂糖が、<br>繊細に輝く一枚。</dd>
                         </dl>
-                        <button class="cart_btn btn_small">カートに入れる</button>
+                        <button type="button" class="cart_btn btn_small">カートに入れる</button>
                     </div>
                     <div class="cookies_item">
                         <div class="cookies_item_img"><a href="#"><img src="images/florentins.jpg" alt="フロランタンの写真"></a></div>
@@ -150,7 +145,7 @@
                             <dt><a href="#">フロランタン</a></dt>
                             <dd>二層が重なり、<br>味わいが立ち上がる一枚。</dd>
                         </dl>
-                        <button class="cart_btn btn_small">カートに入れる</button>
+                        <button type="button" class="cart_btn btn_small">カートに入れる</button>
                     </div>
                     <div class="cookies_item">
                         <div class="cookies_item_img"><a href="#"><img src="images/buttersand.jpg" alt="バターサンドの写真"></a></div>
@@ -158,7 +153,7 @@
                             <dt><a href="#">バターサンド</a></dt>
                             <dd>濃厚なクリームを重ねた、<br>食感の違いを楽しむ一枚。</dd>
                         </dl>
-                        <button class="cart_btn btn_small">カートに入れる</button>
+                        <button type="button" class="cart_btn btn_small">カートに入れる</button>
                     </div>
                     <div class="cookies_item">
                         <div class="cookies_item_img"><a href="#"><img src="images/jamsand.jpg" alt="ジャムサンドの写真"></a></div>
@@ -166,7 +161,7 @@
                             <dt><a href="#">ジャムサンド</a></dt>
                             <dd>甘みと酸味の<br>対比を味わう一枚。</dd>
                         </dl>
-                        <button class="cart_btn btn_small">カートに入れる</button>
+                        <button type="button" class="cart_btn btn_small">カートに入れる</button>
                     </div>
                     <div class="cookies_item">
                         <div class="cookies_item_img"><a href="#"><img src="images/snowball.jpg" alt="ブールドネージュの写真"></a></div>
@@ -174,7 +169,7 @@
                             <dt><a href="#">ブールドネージュ</a></dt>
                             <dd>触れればほどける、<br>やわらかな質感。</dd>
                         </dl>
-                        <button class="cart_btn btn_small">カートに入れる</button>
+                        <button type="button" class="cart_btn btn_small">カートに入れる</button>
                     </div>
                     <div class="cookies_item">
                         <div class="cookies_item_img"><a href="#"><img src="images/icebox.jpg" alt="アイスボックスの写真"></a></div>
@@ -182,7 +177,7 @@
                             <dt><a href="#">アイスボックス</a></dt>
                             <dd>ほろ苦いココアと、<br>発酵バターが溶け合う一枚。</dd>
                         </dl>
-                        <button class="cart_btn btn_small">カートに入れる</button>
+                        <button type="button" class="cart_btn btn_small">カートに入れる</button>
                     </div>
                 </div>
             </section>
@@ -195,7 +190,7 @@
                             <dt><a href="#">ギフトセット -large-</a></dt>
                             <dd>定番クッキーとギフト限定クッキーを贅沢に味わうセット。</dd>
                         </dl>
-                        <button class="cart_btn">カートに入れる</button>
+                        <button type="button" class="cart_btn">カートに入れる</button>
                     </div>
                     <div class="gift_item">
                         <div class="gift_img"><a href="#"><img src="images/giftbox02.jpg" alt="ギフトボックスsmallの写真"></a></div>
@@ -203,7 +198,7 @@
                             <dt><a href="#">ギフトセット -small-</a></dt>
                             <dd>人気商品を食べ比べできるセット。</dd>
                         </dl>
-                        <button class="cart_btn">カートに入れる</button>
+                        <button type="button" class="cart_btn">カートに入れる</button>
                     </div>
                 </div>
             </section>
