@@ -222,6 +222,18 @@
     text-align: center;
 }
 
+.shopdata_img{
+    width: 100%;
+    margin-block-end: $spaceM;
+    overflow: hidden;
+}
+
+.shopdata_img img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .shopdata dl{
     padding-block: $spaceS;
     border-bottom: 1px solid $accentColor;

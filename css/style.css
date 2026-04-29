@@ -647,6 +647,18 @@ a {
   text-align: center;
 }
 
+.shopdata_img {
+  width: 100%;
+  margin-block-end: 1.5rem;
+  overflow: hidden;
+}
+
+.shopdata_img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .shopdata dl {
   padding-block: 1rem;
   border-bottom: 1px solid #B9AFA3;
@@ -873,6 +885,9 @@ footer {
   .google_calendar iframe,
   .google_map iframe {
     aspect-ratio: 1/1;
+  }
+  .shopdata {
+    width: 100%;
   }
   #sp_footer {
     height: 160px;

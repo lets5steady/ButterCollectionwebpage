@@ -171,6 +171,11 @@ header .sp_menubar ul li{
     aspect-ratio: 1/1;    
 }
 
+.shopdata{
+    width: 100%;
+}
+
+
 // フッター
 #sp_footer{
     height: 160px;
@@ -191,5 +196,5 @@ header .sp_menubar ul li{
     font-size: 0.8rem;
 }
 
-// スマホ版(min-width:500px)
+// スマホ版(max-width:500px)
 }
